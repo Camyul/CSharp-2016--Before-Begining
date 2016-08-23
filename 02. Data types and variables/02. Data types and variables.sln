@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Exchange Variable Value
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Employee Data", "10. Employee Data\10. Employee Data.csproj", "{5FF90F8B-3D70-4EF2-B734-5076BA9EC4C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Bank Account Data", "11. Bank Account Data\11. Bank Account Data.csproj", "{9C8AD734-AA1E-4B24-A4D2-F5FE6D1AFE88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Null Values Arithmetic", "12. Null Values Arithmetic\12. Null Values Arithmetic.csproj", "{80170AC5-D2FB-4EB2-8DD0-58A1C0C2566F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{5FF90F8B-3D70-4EF2-B734-5076BA9EC4C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FF90F8B-3D70-4EF2-B734-5076BA9EC4C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FF90F8B-3D70-4EF2-B734-5076BA9EC4C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8AD734-AA1E-4B24-A4D2-F5FE6D1AFE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8AD734-AA1E-4B24-A4D2-F5FE6D1AFE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8AD734-AA1E-4B24-A4D2-F5FE6D1AFE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8AD734-AA1E-4B24-A4D2-F5FE6D1AFE88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80170AC5-D2FB-4EB2-8DD0-58A1C0C2566F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80170AC5-D2FB-4EB2-8DD0-58A1C0C2566F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80170AC5-D2FB-4EB2-8DD0-58A1C0C2566F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80170AC5-D2FB-4EB2-8DD0-58A1C0C2566F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
