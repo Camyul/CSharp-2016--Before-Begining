@@ -6,7 +6,7 @@ class Program
     {
         for (int i = 0; i < 256; i++)
         {
-            if  ((i == 95) | (i == 190))
+            if  ((i == 95) || (i == 190))
             {
                 Console.WriteLine();
             }
