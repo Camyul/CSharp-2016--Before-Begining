@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Odd or Even", "01. Odd or Even\01. Odd or Even.csproj", "{B11DE933-FB13-4DC0-933A-E17C20F0CA14}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Rectangles", "04. Rectangles\04. Rectangles.csproj", "{3A6B5429-09E1-4AA6-8F50-E48E950828DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Third digit", "05. Third digit\05. Third digit.csproj", "{188F05D5-13DE-4CFF-A5FA-526FB7A16C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Four digits", "06. Four digits\06. Four digits.csproj", "{CED67F48-8720-49D0-B0DF-9E18DAAAFD00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{188F05D5-13DE-4CFF-A5FA-526FB7A16C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{188F05D5-13DE-4CFF-A5FA-526FB7A16C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{188F05D5-13DE-4CFF-A5FA-526FB7A16C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED67F48-8720-49D0-B0DF-9E18DAAAFD00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED67F48-8720-49D0-B0DF-9E18DAAAFD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED67F48-8720-49D0-B0DF-9E18DAAAFD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED67F48-8720-49D0-B0DF-9E18DAAAFD00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
