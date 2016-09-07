@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Odd or Even", "01. Odd or Even\01. Odd or Even.csproj", "{B11DE933-FB13-4DC0-933A-E17C20F0CA14}"
 EndProject
@@ -30,6 +30,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Modify Bit", "13. Modify Bit\13. Modify Bit.csproj", "{E2CBD956-FE2D-45BD-BDFA-D63D522FDE3F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. BitExchange", "14. BitExchange\14. BitExchange.csproj", "{1DE70118-C20C-4FF3-940C-32505EA26133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. BitSwap", "15. BitSwap\15. BitSwap.csproj", "{5000F196-AFA4-4E65-9ADE-BA5A965C9048}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{1DE70118-C20C-4FF3-940C-32505EA26133}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DE70118-C20C-4FF3-940C-32505EA26133}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DE70118-C20C-4FF3-940C-32505EA26133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5000F196-AFA4-4E65-9ADE-BA5A965C9048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5000F196-AFA4-4E65-9ADE-BA5A965C9048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5000F196-AFA4-4E65-9ADE-BA5A965C9048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5000F196-AFA4-4E65-9ADE-BA5A965C9048}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
