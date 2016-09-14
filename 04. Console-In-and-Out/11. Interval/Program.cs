@@ -8,9 +8,9 @@ class Program
         short n = short.Parse(Console.ReadLine());
         short m = short.Parse(Console.ReadLine());
         byte count = 0;
-        for (int i = n; i < m; i++)
+        for (int i = (n + 1); i < m; i++)
         {
-            if (((i % 5) == 0) && (i != n) && (i != m))
+            if ((i % 5) == 0)
             {
                 count++;
             }
