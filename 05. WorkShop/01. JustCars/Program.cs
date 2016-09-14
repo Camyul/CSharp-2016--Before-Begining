@@ -32,10 +32,16 @@ class Program
         userCar.y = Console.WindowHeight - 1;
         userCar.c = '@';
         userCar.color = ConsoleColor.Yellow;
+        Random randomGenerator = new Random();
         List<Car> cars = new List<Car>();
         while (true)
         {
             //Move our car (key passed)
+            Car newCar = new Car();
+            newCar.color = ConsoleColor.DarkGreen;
+            newCar.x = randomGenerator.Next(0, playerfieldWidth);
+            newCar.y = 0;
+            newCar.c = '#';
             if (Console.KeyAvailable)
             {
                 ConsoleKeyInfo pressedKey = Console.ReadKey(true);
@@ -65,6 +71,7 @@ class Program
             Console.Clear();
             //Redraw Playfield
             PrintOnPosition(userCar.x, userCar.y, userCar.c, userCar.color);
+
             //Draw info
             //Slow Daown Program
             Thread.Sleep(100);
