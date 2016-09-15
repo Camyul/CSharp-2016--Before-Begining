@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 struct Object
 {
@@ -32,7 +29,7 @@ class Program
     {
         int playerfieldWidth = 5;
         int livescount = 5;
-        double speed = 400;
+        double speed = 100;
         double acceleration = 0.5;
         Console.BufferHeight = Console.WindowHeight = 30;
         Console.BufferWidth = Console.WindowWidth = 30;
