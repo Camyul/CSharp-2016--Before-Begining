@@ -19,11 +19,12 @@ class Program
     }
     static void Main()
     {
-        
-        Console.BufferWidth = Console.WindowWidth = 60;
+        int livescount = 5;
+        int playerfield = 60;
+        Console.BufferWidth = Console.WindowWidth = 80;
         Console.BufferHeight = Console.WindowHeight = 30;
         Rock userPad = new Rock();
-        userPad.x = 30;
+        userPad.x = playerfield / 2;
         userPad.y = Console.WindowHeight - 1;
         userPad.str = "(0)";
         userPad.color = ConsoleColor.White;
@@ -33,7 +34,7 @@ class Program
         {
             
             Rock newRock = new Rock();
-            newRock.x = randomGenerator.Next(0, Console.WindowWidth);
+            newRock.x = randomGenerator.Next(0, playerfield);
             newRock.y = 1;
             newRock.str = "%";
             newRock.color = ConsoleColor.Red;
@@ -51,7 +52,7 @@ class Program
                 }
                 if (pressedKey.Key == ConsoleKey.RightArrow)
                 {
-                    if (userPad.x < (Console.BufferWidth - 4))
+                    if (userPad.x < (playerfield - 3))
                     {
                         userPad.x++;
                     }
@@ -68,6 +69,11 @@ class Program
                 moveRock.y = oldRock.y + 1;
                 moveRock.str = oldRock.str;
                 moveRock.color = oldRock.color;
+                if (((userPad.x == moveRock.x) || (userPad.x +1 == moveRock.x) || (userPad.x + 2 == moveRock.x))
+                    && (userPad.y == moveRock.y))
+                {
+                    livescount--;
+                }
                 if (moveRock.y < Console.WindowHeight)
                 {
                     tempRock.Add(moveRock);
@@ -84,6 +90,11 @@ class Program
             }
             PrintStringOnPosition(userPad.x, userPad.y, userPad.str, userPad.color);
             //Draw info
+            PrintStringOnPosition(62, 5, "Lives: "+ livescount, ConsoleColor.White);
+            for (int i = 0; i < Console.WindowHeight; i++)
+            {
+                PrintStringOnPosition(playerfield, i, "|", ConsoleColor.White);
+            }
             //Slow down program
             Thread.Sleep(200);
         }
