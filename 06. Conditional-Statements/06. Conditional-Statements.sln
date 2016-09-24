@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.06 Biggest of 5", "06.06
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.07 Sort 3 Numbers", "06.07 Sort 3 Numbers\06.07 Sort 3 Numbers.csproj", "{AB502893-D148-458C-8CF7-9AE1092FD962}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.08 Digit as Word", "06.08 Digit as Word\06.08 Digit as Word.csproj", "{2ABCC933-E4FA-44F3-A1A1-B7F8CC78F23B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.09 Int, Double, String", "06.09 Int, Double, String\06.09 Int, Double, String.csproj", "{6FF9901F-65CC-465C-A389-74BEA651DB2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{AB502893-D148-458C-8CF7-9AE1092FD962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB502893-D148-458C-8CF7-9AE1092FD962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB502893-D148-458C-8CF7-9AE1092FD962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ABCC933-E4FA-44F3-A1A1-B7F8CC78F23B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABCC933-E4FA-44F3-A1A1-B7F8CC78F23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABCC933-E4FA-44F3-A1A1-B7F8CC78F23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABCC933-E4FA-44F3-A1A1-B7F8CC78F23B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF9901F-65CC-465C-A389-74BEA651DB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF9901F-65CC-465C-A389-74BEA651DB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF9901F-65CC-465C-A389-74BEA651DB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF9901F-65CC-465C-A389-74BEA651DB2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
