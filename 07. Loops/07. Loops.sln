@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Numbers from 1 to N", "01. Numbers from 1 to N\01. Numbers from 1 to N.csproj", "{B8834A20-748D-47C8-9EC6-0F86705408CB}"
 EndProject
@@ -22,6 +22,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Matrix of Numbers", "09. Matrix of Numbers\09. Matrix of Numbers.csproj", "{39F23300-DA67-4AB8-B396-E26E9C289524}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Odd and Even Product", "10. Odd and Even Product\10. Odd and Even Product.csproj", "{E540BD69-E99E-47BB-A0A7-BEA3C7562121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Binary to Decimal", "11. Binary to Decimal\11. Binary to Decimal.csproj", "{52956222-29C5-4E21-B015-08EE107A109D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Decimal to Binary", "12. Decimal to Binary\12. Decimal to Binary.csproj", "{62736126-62E9-47A4-B3C7-76BB7617430B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Decimal to Hex", "13. Decimal to Hex\13. Decimal to Hex.csproj", "{B305D821-2BE9-40FF-8FAA-AD3C7DA775DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{E540BD69-E99E-47BB-A0A7-BEA3C7562121}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E540BD69-E99E-47BB-A0A7-BEA3C7562121}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E540BD69-E99E-47BB-A0A7-BEA3C7562121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52956222-29C5-4E21-B015-08EE107A109D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52956222-29C5-4E21-B015-08EE107A109D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52956222-29C5-4E21-B015-08EE107A109D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52956222-29C5-4E21-B015-08EE107A109D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62736126-62E9-47A4-B3C7-76BB7617430B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62736126-62E9-47A4-B3C7-76BB7617430B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62736126-62E9-47A4-B3C7-76BB7617430B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62736126-62E9-47A4-B3C7-76BB7617430B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B305D821-2BE9-40FF-8FAA-AD3C7DA775DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B305D821-2BE9-40FF-8FAA-AD3C7DA775DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B305D821-2BE9-40FF-8FAA-AD3C7DA775DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B305D821-2BE9-40FF-8FAA-AD3C7DA775DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
