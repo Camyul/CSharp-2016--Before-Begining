@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Numbers from 1 to N", "01. Numbers from 1 to N\01. Numbers from 1 to N.csproj", "{B8834A20-748D-47C8-9EC6-0F86705408CB}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Decimal to Binary", "12. Decimal to Binary\12. Decimal to Binary.csproj", "{62736126-62E9-47A4-B3C7-76BB7617430B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Decimal to Hex", "13. Decimal to Hex\13. Decimal to Hex.csproj", "{B305D821-2BE9-40FF-8FAA-AD3C7DA775DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Hex to Decimal", "14. Hex to Decimal\14. Hex to Decimal.csproj", "{327CA797-71E4-4313-83D5-C8510538F60E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{B305D821-2BE9-40FF-8FAA-AD3C7DA775DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B305D821-2BE9-40FF-8FAA-AD3C7DA775DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B305D821-2BE9-40FF-8FAA-AD3C7DA775DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327CA797-71E4-4313-83D5-C8510538F60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327CA797-71E4-4313-83D5-C8510538F60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327CA797-71E4-4313-83D5-C8510538F60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327CA797-71E4-4313-83D5-C8510538F60E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
