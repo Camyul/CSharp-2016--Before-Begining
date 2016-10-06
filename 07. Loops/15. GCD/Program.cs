@@ -10,7 +10,7 @@ class Program
         int[] intNumbers = new int[separatedNumbers.Length];
         int firstNumber = new int();
         int secondNumber = new int();
-        int rest = 2;
+        int rest = 0;
         for (int i = 0; i < separatedNumbers.Length; i++)
         {
             intNumbers[i] = Convert.ToInt32(separatedNumbers[i]);
@@ -20,10 +20,14 @@ class Program
         do
         {
             rest = firstNumber % secondNumber;
+            if (rest == 0)
+            {
+                break;
+            }
             firstNumber = secondNumber;
             secondNumber = rest;
         }
-        while (rest > 1);
+        while (rest != 0);
         Console.WriteLine(secondNumber);
     }
 }
