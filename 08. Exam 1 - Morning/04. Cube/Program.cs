@@ -5,27 +5,33 @@ class Program
 {
     static void Main()
     {
-        //int n = int.Parse(Console.ReadLine());
-        //int row = 0;
-        //char[] simbolCube = { '9',':', '/', 'X' };
-        //if (row == 0)
-        //{
-        //    for (int j = 0; j <= row; j++)
-        //    {
-        //        for (int i = 0; i < n - row; i++)
-        //        {
-        //            Console.Write(simbolCube[j]);
-        //        }
-        //        Console.Write(simbolCube[j+1-row]);
-        //        if (j==1)
-        //        {
-        //            break;
-        //        }
-        //        row++;
-        //    }
-        //}
-        
-        Console.Write(new string('y', 10));
 
     }
 }
+//{
+//        int n = int.Parse(Console.ReadLine());
+//Console.Clear();
+//        Console.Write(new string(' ', n-1));
+//        Console.WriteLine(new string(':', n));
+//        for (int i = 1; i<n-1; i++)
+//        {
+//            Console.Write(new string(' ', n-i-1));
+//            Console.Write(new string(':', 1));
+//            Console.Write(new string('/', n-2));
+//            Console.Write(new string(':', 1));
+//            Console.Write(new string('X', i-1));
+//            Console.WriteLine(new string(':', 1));
+//        }
+//        Console.Write(new string(':', n));
+//        Console.Write(new string('X', n - 2));
+//        Console.WriteLine(new string(':', 1));
+//        for (int i = 1; i<n; i++)
+//        {
+//            Console.Write(new string(':', 1));
+//            Console.Write(new string(' ', n - 2));
+//            Console.Write(new string(':', 1));
+//            Console.Write(new string('X', n- i - 1));
+//            Console.WriteLine(new string(':', 1));
+//        }
+//        Console.WriteLine(new string(':', n));
+//    }
