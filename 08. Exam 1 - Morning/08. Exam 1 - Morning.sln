@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Printing", "01. Printing\01. Printing.csproj", "{92E58249-7BEA-4ED8-B09C-E83EB47AFA0E}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Cube", "04. Cube\04. Cube.csproj", "{B359AE42-568F-4895-8DA6-91ABB1643015}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Cube 2", "04. Cube 2\04. Cube 2.csproj", "{7770ED0F-C103-4F4B-9F60-AD5A5466E5B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Students to Students and Bits to Bits", "05. Students to Students and Bits to Bits\05. Students to Students and Bits to Bits.csproj", "{28244A52-B943-47C6-82D7-4B0C7A5EEA55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7770ED0F-C103-4F4B-9F60-AD5A5466E5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7770ED0F-C103-4F4B-9F60-AD5A5466E5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7770ED0F-C103-4F4B-9F60-AD5A5466E5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28244A52-B943-47C6-82D7-4B0C7A5EEA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28244A52-B943-47C6-82D7-4B0C7A5EEA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28244A52-B943-47C6-82D7-4B0C7A5EEA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28244A52-B943-47C6-82D7-4B0C7A5EEA55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
