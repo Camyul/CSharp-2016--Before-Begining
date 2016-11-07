@@ -65,7 +65,7 @@ class Cube_2
             {
                 Console.Write(letter);
             }
-            Console.WriteLine(colon);
+            Console.WriteLine(colon); 
         }
         for (int i = 0; i < n; i++)
         {
